@@ -1,0 +1,11 @@
+
+[user]
+  name = leica19
+
+[core]
+  ui = auto
+  editor = vim
+
+[alias]
+  cm = commit
+ 
