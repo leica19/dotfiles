@@ -7,9 +7,14 @@
   editor = vim
 
 [alias]
+  a  = add
+  b  = branch
   c  = commit
+  k  = checkout
+  l  = log
   p  = push
   pl = pull
+  s  = status
   
 [color] 
   ui = auto
