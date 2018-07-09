@@ -3,9 +3,14 @@
   name = leica19
 
 [core]
-  ui = auto
+  pager = less -r
   editor = vim
 
 [alias]
-  cm = commit
+  c  = commit
+  p  = push
+  pl = pull
+  
+[color] 
+  ui = auto
  
