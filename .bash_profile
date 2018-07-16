@@ -1,6 +1,7 @@
 
 alias d="docker"
 alias di="docker images"
+alias ds="docker search"
 alias dps="docker ps"
 alias drm='docker rm $(docker ps -aq)'
 alias drmi="docker rmi"
