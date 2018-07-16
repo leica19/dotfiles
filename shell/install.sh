@@ -11,7 +11,7 @@ for list in ${packagelist[@]}; do
 	sudo apt-get install -y ${list}
 done
 
-# install manager on vim
+# install plugin manager on vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 sudo apt-get update -y
