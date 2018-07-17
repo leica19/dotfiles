@@ -1,6 +1,5 @@
 
 [user]
-  name = leica19
 
 [core]
   pager = less -r
@@ -10,8 +9,10 @@
   a  = add
   b  = branch
   c  = commit
+  dg = pull --rebase	
   k  = checkout
   l  = log
+  ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
   p  = push
   pl = pull
   s  = status
