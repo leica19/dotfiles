@@ -19,7 +19,6 @@ filetype plugin indent on    " required
 "
 " vim setting
 "
-
 set title
 set number
 set tabstop=4
