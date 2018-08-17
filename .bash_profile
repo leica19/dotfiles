@@ -14,5 +14,7 @@ alias dc="docker-compose"
 dalias() { alias | grep 'docker' | sed "s/^\([^=]*\)='\(.*\)'/\1    => \2/"| sed "s/'\\\'//g"; }
 
 # bash
+alias cp="cp -i"
 alias grep="grep --color=auto"
 alias ll="ls -la"
+alias rm="rm -i"
