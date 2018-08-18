@@ -3,6 +3,7 @@
 packagelist = (
 	"vim"
 	"git"
+	"tmux"
 )
 
 echo "start apt-get install apps..."
