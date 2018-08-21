@@ -2,6 +2,7 @@
 # docker command
 alias d="docker"
 alias db="docker build"
+alias dcm="docker commit"
 alias di="docker images"
 alias ds="docker search"
 alias dps="docker ps"
