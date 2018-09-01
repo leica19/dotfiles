@@ -5,6 +5,7 @@ alias de="docker exec"
 alias db="docker build"
 alias dcm="docker commit"
 alias di="docker images"
+alias dip="docker inspect"
 alias ds="docker search"
 alias dps="docker ps"
 alias drm='docker rm $(docker ps -aq)'
