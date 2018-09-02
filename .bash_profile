@@ -3,7 +3,7 @@
 alias d="docker"
 alias de="docker exec"
 alias db="docker build"
-alias dcm="docker commit"
+alias dc="docker commit"
 alias di="docker images"
 alias dip="docker inspect"
 alias ds="docker search"
@@ -12,7 +12,7 @@ alias drm='docker rm $(docker ps -aq)'
 alias drmi="docker rmi"
 
 # docker-compose command
-alias dc="docker-compose"
+alias d-c="docker-compose"
 
 dalias() { alias | grep 'docker' | sed "s/^\([^=]*\)='\(.*\)'/\1    => \2/"| sed "s/'\\\'//g"; }
 
