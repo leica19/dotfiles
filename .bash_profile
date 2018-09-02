@@ -14,6 +14,10 @@ alias drmi="docker rmi"
 # docker-compose command
 alias d-c="docker-compose"
 
+# docker-machine command
+alias d-m="docker-machine"
+
+# docker utils
 dalias() { alias | grep 'docker' | sed "s/^\([^=]*\)='\(.*\)'/\1    => \2/"| sed "s/'\\\'//g"; }
 
 # bash
