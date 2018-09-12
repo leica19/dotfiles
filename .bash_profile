@@ -11,6 +11,7 @@ alias dpl="docker pull"
 alias dps="docker ps"
 alias drm='docker rm $(docker ps -aq)'
 alias drmi="docker rmi"
+alias dv="docker volume"
 
 # docker-compose command
 alias d-c="docker-compose"
